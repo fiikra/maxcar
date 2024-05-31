@@ -10,7 +10,8 @@
  "engine": "InnoDB",
  "field_order": [
   "marque",
-  "model"
+  "model",
+  "immatriculation"
  ],
  "fields": [
   {
@@ -22,11 +23,16 @@
    "fieldname": "model",
    "fieldtype": "Data",
    "label": "Model "
+  },
+  {
+   "fieldname": "immatriculation",
+   "fieldtype": "Data",
+   "label": "Immatriculation"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-05-31 22:33:11.165584",
+ "modified": "2024-05-31 22:41:05.995631",
  "modified_by": "Administrator",
  "module": "Maxcar Tracker",
  "name": "Voiture",
