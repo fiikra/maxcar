@@ -1,40 +1,35 @@
 {
  "actions": [],
+ "allow_import": 1,
  "allow_rename": 1,
- "autoname": "Cond-.####",
- "creation": "2024-05-31 01:55:43.442085",
+ "autoname": "Vi-.####",
+ "creation": "2024-05-31 22:33:11.165584",
  "default_view": "List",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "fname",
-  "lname",
-  "filiale"
+  "marque",
+  "model"
  ],
  "fields": [
   {
-   "fieldname": "fname",
+   "fieldname": "marque",
    "fieldtype": "Data",
-   "label": "nom"
+   "label": "Marque "
   },
   {
-   "fieldname": "lname",
+   "fieldname": "model",
    "fieldtype": "Data",
-   "label": "prenom"
-  },
-  {
-   "fieldname": "filiale",
-   "fieldtype": "Data",
-   "label": "Filiale"
+   "label": "Model "
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-05-31 22:33:39.932543",
+ "modified": "2024-05-31 22:33:11.165584",
  "modified_by": "Administrator",
  "module": "Maxcar Tracker",
- "name": "Conducteur",
+ "name": "Voiture",
  "naming_rule": "Expression (old style)",
  "owner": "Administrator",
  "permissions": [
@@ -53,5 +48,6 @@
  ],
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "track_changes": 1
 }
